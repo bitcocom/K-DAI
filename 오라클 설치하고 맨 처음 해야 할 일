@@ -1,0 +1,11 @@
+SQL> conn sys /as sysdba
+비밀번호 입력
+connected
+SQL> alter user hr account unlock identified by hr;
+SQL> conn hr/hr
+SQL> select (*) from employees;
+107개 행 인출됨
+
+SQL> conn sys /as sysdba
+비밀번호 입력
+SQL> exec dbms_xdb.sethttpport(8081)
