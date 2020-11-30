@@ -9,3 +9,6 @@ SQL> select (*) from employees;
 SQL> conn sys /as sysdba
 비밀번호 입력
 SQL> exec dbms_xdb.sethttpport(8081)
+
+
+https://offbyone.tistory.com/13
